@@ -1,0 +1,97 @@
+
+/* Navigation Bar */
+@media(max-width: 720px) {
+  body {
+      background-size: 100% 100%;
+  }
+
+  .navbar-collapse {
+      background: #000000;
+  }
+
+  .para {
+      min-height: 800px;
+  }
+}
+
+
+
+
+/* About Us */
+@media only screen and (max-width:347px){
+
+.about-1-divs p{
+   font-size: .7em;
+}
+
+.about-1-divs h2{
+  font-size: 1em;
+}
+
+
+}
+
+@media only screen and (max-width:653px){
+
+   .about{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .about-2 img{
+    width: 70%;
+    float: none;
+}
+
+/* delicious */
+.delicious{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+/* how it works */
+.works{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.work-div-1{
+    padding-top: 2em;
+    height: 300px;
+}
+.work-div-2{
+    padding-top: 2em;
+    height: 300px;
+}
+
+.work-div-3{
+    padding-top: 2em;
+    height: 300px;
+  }
+
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+ }
+
+}
+
+/* Clients Order */
+@media screen and (max-width: 900px) {
+    .carousel img{
+      width: calc(100% / 2);
+    }
+  }
+
+@media screen and (max-width: 550px) {
+    .carousel img{
+      width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
